@@ -95,7 +95,7 @@ header ul li {
 }
 
 #showcase button {
-	width: 10%;
+	width: auto;
 	height: 4vh;
 	font-size: 1vw;
 	background: #FDB813;
@@ -228,6 +228,10 @@ footer p {
 		grid-template-columns: 1fr;
 	}
 
+	#listings p {
+		font-size: 15px;
+	}
+
 	#info {
 		grid-template-columns: 1fr;
 		background: #FDB813;
@@ -238,11 +242,19 @@ footer p {
 	}
 
 	#info p {
-		padding: 100px 50px;
+		padding: 70px 50px;
 		line-height: 1.5;
 	}
 
 	#testimonial figure {
 		margin: 0;
+	}
+
+	#testimonial blockquote {
+		margin: 0;
+	}
+
+	footer ul {
+		padding: 0;
 	}
 }
