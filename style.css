@@ -183,3 +183,66 @@ footer ul li {
 footer p {
 	margin: 0;
 }
+
+/*responsive*/
+@media (max-width: 767px) {
+	header {
+		text-align: center;
+	}
+
+	header i {
+		float: none;
+	}
+
+	header h1 {
+		float: none;
+		display: inline-block;
+	}
+
+	header ul {
+		float: none;
+	}
+
+	header ul li {
+		float: none;
+		padding: 0 15px;
+	}
+
+	#showcase h2 {
+		font-size: 40px;
+	}
+
+	#showcase p {
+		visibility: hidden;
+	}
+
+	#showcase input {
+		font-size: 12px;
+	}
+
+	#showcase button {
+		font-size: 9px;
+	}
+
+	#listings .listings {
+		grid-template-columns: 1fr;
+	}
+
+	#info {
+		grid-template-columns: 1fr;
+		background: #FDB813;
+	}
+
+	#info img:nth-of-type(2) {
+		grid-row: 3;
+	}
+
+	#info p {
+		padding: 100px 50px;
+		line-height: 1.5;
+	}
+
+	#testimonial figure {
+		margin: 0;
+	}
+}
